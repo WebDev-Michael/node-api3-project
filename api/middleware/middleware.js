@@ -31,6 +31,7 @@ async function validateUserId(req, res, next) {
 }
 function validateUser(req, res, next) {
   // DO YOUR MAGIC
+  
   console.log("validateUser middleware")
   next()
 
